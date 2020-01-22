@@ -10,8 +10,7 @@ class App extends React.Component {
       username: '',
       password: '',
       confirmPassword: '',
-      
-      array:[]
+            array:[]
     };
    
     
@@ -44,9 +43,6 @@ class App extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    console.log('myArray ' + JSON.stringify( this.state.array ));
-
-    
     
   }
 
