@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+body {
+    background: #232d3c; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+.form-container {
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    border: 1px solid #ccc;
+    background: #fff;
+    max-height: 325px;
+    border-radius: 10px;
+}
+
+.heading {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #607D8B;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #607D8B;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.form-control {
+    background: #fff;
+    height: 40px;
+    width: 100%;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #ccc;
+    color: #797979;
+    font-size: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    background: #3F51B5;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    color: #fff;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
